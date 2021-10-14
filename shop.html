@@ -1,0 +1,922 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Organi</title>
+
+    <!-- style CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link rel="stylesheet" href="../e-commerce/./css/nice-select.css">
+    <link rel="stylesheet" href="../e-commerce/./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../e-commerce/./css/slicknav.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="../e-commerce/css/style.css">
+  </head>
+  <body>
+    <!-- header-top-section-start -->
+    <header class="header">
+      <div class="header-top-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="header-top-left">
+                <ul>
+                  <li><i class="fas fa-envelope"></i>hello@colorlib.com</li>
+                  <li> Free Shipping for all Order of $99</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__right">
+                <div class="header__top__right__social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="header__top__right__language">
+                    <img src="img/language.png" alt="">
+                    <span>English<i class="fas fa-angle-down"></i></span>
+                    <ul>
+                        <li><a href="#">Spanis</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </div>
+                <div class="header__top__right__auth">
+                    <a href="#"><i class="fa fa-user"></i> Login</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3">
+                <div class="header__logo">
+                    <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <nav class="header__menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./shop-grid.html">Shop</a></li>
+                        <li><a href="#">Pages</a>
+                            <ul class="header__menu__dropdown">
+                                <li><a href="./product-details.html">Shop Details</a></li>
+                                <li><a href="./shopping-cart.html">Shoping Cart</a></li>
+                                <li><a href="./checkout.html">Check Out</a></li>
+                                <li><a href="">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="header__cart">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                        <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                    </ul>
+                    <div class="header__cart__price">item: <span>$150.00</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="toggle-icon">
+          <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+       
+      </div>
+    </header>
+    <!-- header-top-section-end -->
+
+    <!-- mobile menu start -->
+    <section class="mobile-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="mobile-menu-header">
+                <a href="#"><img src="../e-commerce/img/logo.png" alt=""></a>
+              </div>
+              <div class="offcanvas-body">
+                <div class="header__cart mobile-cart">
+                  <ul>
+                      <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                  </ul>
+                  <div class="header__cart__price">item: <span>$150.00</span></div>
+                </div>
+                <div class="mobile-lang-auth">
+                  <div class="mobile_top_language">
+                    <img src="img/language.png" alt="">
+                    <span>English<i class="fas fa-angle-down"></i></span>
+                    <ul>
+                        <li><a href="#">Spanis</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                  </div>
+                  <div class=" mobile_header-auth">
+                      <a href="#"><i class="fa fa-user"></i> Login</a>
+                  </div>
+                </div>
+
+                <nav class="navbar-light">
+                  <ul class="navbar-nav">
+                    <li>
+                      <a href="#" class="nav-link">
+  
+                        <span>Home</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span>Shop</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav-link sidebar-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <span>Pages</span>
+                        <span class="right-icon ms-auto">
+                          <i class="fas fa-angle-down"></i>
+                        </span>
+                      </a>
+                      <div class="collapse" id="collapseExample">
+                        <div>
+                          <ul class="navbar-nav ">
+                            <li>
+                              <a href="#" class="nav-link px-3">
+                                <span>Shop Details</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="nav-link px-3">
+                                <span>Shopping Cart</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="nav-link px-3">
+                                <span>Check Out</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="nav-link px-3">
+                                <span>Blog Details</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span>Blog</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span>Contact</span>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </nav>
+                <div class="header__top__right__social pt-5 mobile-social">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="mobile-menu-contact">
+                  <ul>
+                    <li><i class="fas fa-envelope"></i> hello@colorlib.com</li>
+                    <li> Free Shipping for all Order of $99</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mobile menu end -->
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3">
+                  <div class="hero__categories">
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            All Departments
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="position: absolute; width: 260px; background: #fff;">
+                          <div class="accordion-body">
+                            <ul>
+                              <li><a href="#">Fresh Meat</a></li>
+                              <li><a href="#">Vegetables</a></li>
+                              <li><a href="#">Fruit & Nut Gifts</a></li>
+                              <li><a href="#">Fresh Berries</a></li>
+                              <li><a href="#">Ocean Foods</a></li>
+                              <li><a href="#">Butter & Eggs</a></li>
+                              <li><a href="#">Fastfood</a></li>
+                              <li><a href="#">Fresh Onion</a></li>
+                              <li><a href="#">Papayaya & Crisps</a></li>
+                              <li><a href="#">Oatmeal</a></li>
+                              <li><a href="#">Fresh Bananas</a></li>
+                          </ul>
+                          </div>
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-9">
+                  <div class="hero__search">
+                      <div class="hero__search__form">
+                        <div class="input-group mb-3">
+                         
+                          <input type="text" class="form-control" placeholder="What do you need?" aria-label="What do you need" aria-describedby="button-addon2">
+                          <button class="btn btn-primary btn-lg" type="button" id="button-addon2">Search</button>
+                        </div>
+                      </div>
+                  <div class="hero__search__phone ">
+                          <div class="hero__search__phone__icon">
+                              <i class="fa fa-phone"></i>
+                          </div>
+                          <div class="hero__search__phone__text">
+                              <h5>+65 11.188.888</h5>
+                              <span>support 24/7 time</span>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+  <!-- Hero Section End -->
+
+  <!-- page-title-section-start -->
+  <section class="page-title-section mt-4">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-12 text-center">
+                  <div class="title-text">
+                      <h2>Organi Shop</h2>
+                      <div class="title-option">
+                          <a href="./index.html">Home-</a>
+                          <span>Shop</span>
+                      </div>
+                  </div>
+              </div>
+          </div>
+      </div>
+  </section>
+  <!-- page-title-section-end -->
+
+  <!-- product-section-start -->
+  <section class="product-section py-5">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3 col-md-5 col-sm-12">
+                <div class="sidebar">
+                    <div class="sidebar__item">
+                        <h4>Department</h4>
+                        <ul>
+                            <li><a href="#">Fresh Meat</a></li>
+                            <li><a href="#">Vegetables</a></li>
+                            <li><a href="#">Fruit & Nut Gifts</a></li>
+                            <li><a href="#">Fresh Berries</a></li>
+                            <li><a href="#">Ocean Foods</a></li>
+                            <li><a href="#">Butter & Eggs</a></li>
+                            <li><a href="#">Fastfood</a></li>
+                            <li><a href="#">Fresh Onion</a></li>
+                            <li><a href="#">Papayaya & Crisps</a></li>
+                            <li><a href="#">Oatmeal</a></li>
+                        </ul>
+                    </div>
+                    <div class="sidebar__item">
+                        <h4 class="pb-3">Price</h4>
+                        <div class="container range">
+                            <div class="slider-track"></div>
+                            <input type="range" min="0" max="500" value="0" id="slider-1" oninput="slideOne()">
+                            <input type="range" min="0" max="500" value="500" id="slider-2" oninput="slideTwo()">
+                        </div>
+                        <div class="values pt-4">
+                            <span id="range1">
+                                0
+                            </span>
+                            <span> &dash; </span>
+                            <span id="range2">
+                                500
+                            </span>
+                        </div>
+                    </div>
+                    <div class="sidebar__item sidebar__item__color--option py-4">
+                        <h4>Colors</h4>
+                        <div class="sidebar__item__color sidebar__item__color--white">
+                            <label for="white">
+                                White
+                                <input type="radio" id="white">
+                            </label>
+                        </div>
+                        <div class="sidebar__item__color sidebar__item__color--gray">
+                            <label for="gray">
+                                Gray
+                                <input type="radio" id="gray">
+                            </label>
+                        </div>
+                        <div class="sidebar__item__color sidebar__item__color--red">
+                            <label for="red">
+                                Red
+                                <input type="radio" id="red">
+                            </label>
+                        </div>
+                        <div class="sidebar__item__color sidebar__item__color--black">
+                            <label for="black">
+                                Black
+                                <input type="radio" id="black">
+                            </label>
+                        </div>
+                        <div class="sidebar__item__color sidebar__item__color--blue">
+                            <label for="blue">
+                                Blue
+                                <input type="radio" id="blue">
+                            </label>
+                        </div>
+                        <div class="sidebar__item__color sidebar__item__color--green">
+                            <label for="green">
+                                Green
+                                <input type="radio" id="green">
+                            </label>
+                        </div>
+                    </div>
+                    
+                    <div class="sidebar__item pt-5">
+                        <h4 class="mb-2">Popular Size</h4>
+                        <div class="sidebar__item__size">
+                            <label for="large">
+                                Large
+                                <input type="radio" id="large">
+                            </label>
+                        </div>
+                        <div class="sidebar__item__size">
+                            <label for="medium">
+                                Medium
+                                <input type="radio" id="medium">
+                            </label>
+                        </div>
+                        <div class="sidebar__item__size">
+                            <label for="small">
+                                Small
+                                <input type="radio" id="small">
+                            </label>
+                        </div>
+                        <div class="sidebar__item__size">
+                            <label for="tiny">
+                                Tiny
+                                <input type="radio" id="tiny">
+                            </label>
+                        </div>
+                    </div>
+                    <div class="sidebar__item">
+                        <div class="latest-product__text pt-3">
+                            <h4>Latest Products</h4>
+                            <div class="latest-product__slider owl-carousel">
+                                <div class="latest-prdouct__slider__item">
+                                    <a href="#" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="img/latest-product/lp-1.jpg" alt="">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>Crab Pool Security</h6>
+                                            <span>$30.00</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="img/latest-product/lp-2.jpg" alt="">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>Crab Pool Security</h6>
+                                            <span>$30.00</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="img/latest-product/lp-3.jpg" alt="">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>Crab Pool Security</h6>
+                                            <span>$30.00</span>
+                                        </div>
+                                    </a>
+                                </div>
+                                <div class="latest-prdouct__slider__item">
+                                    <a href="#" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="img/latest-product/lp-1.jpg" alt="">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>Crab Pool Security</h6>
+                                            <span>$30.00</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="img/latest-product/lp-2.jpg" alt="">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>Crab Pool Security</h6>
+                                            <span>$30.00</span>
+                                        </div>
+                                    </a>
+                                    <a href="#" class="latest-product__item">
+                                        <div class="latest-product__item__pic">
+                                            <img src="img/latest-product/lp-3.jpg" alt="">
+                                        </div>
+                                        <div class="latest-product__item__text">
+                                            <h6>Crab Pool Security</h6>
+                                            <span>$30.00</span>
+                                        </div>
+                                    </a>
+                                </div>
+                              </div>
+                        </div>
+                    </div>
+                </div>
+              </div>
+              <div class="col-lg-9 col-md-7">
+                  <div class="product__discount">
+                      <div class="section-title product__discount__title">
+                          <h2>Sale Off</h2>
+                      </div>
+                      <div class="row">
+                            <div class="col-lg-12">
+                                <div class="product__discount__slider py-5 owl-carousel">
+                                    <div class="product__discount__item ">
+                                        <div class="product__discount__item__pic">
+                                            <img src="./img/product/discount/pd-1.jpg" alt="" class="mw-100">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="product__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Dried Fruit</span>
+                                            <h5><a href="#">Raisin’n’nuts</a></h5>
+                                            <div class="product__item__price">$30.00 <del>$36.00</del></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="product__discount__item ">
+                                        <div class="product__discount__item__pic">
+                                            <img src="./img/product/discount/pd-2.jpg" alt="" class="mw-100">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="product__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Dried Fruit</span>
+                                            <h5><a href="#">Raisin’n’nuts</a></h5>
+                                            <div class="product__item__price">$30.00 <del>$36.00</del></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="product__discount__item ">
+                                        <div class="product__discount__item__pic">
+                                            <img src="./img/product/discount/pd-3.jpg" alt="" class="mw-100">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="product__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Dried Fruit</span>
+                                            <h5><a href="#">Raisin’n’nuts</a></h5>
+                                            <div class="product__item__price">$30.00 <del>$36.00</del></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="product__discount__item ">
+                                        <div class="product__discount__item__pic">
+                                            <img src="./img/product/discount/pd-4.jpg" alt="" class="mw-100">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="product__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Dried Fruit</span>
+                                            <h5><a href="#">Raisin’n’nuts</a></h5>
+                                            <div class="product__item__price">$30.00 <del>$36.00</del></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="product__discount__item ">
+                                        <div class="product__discount__item__pic">
+                                            <img src="./img/product/discount/pd-5.jpg" alt="" class="mw-100">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="product__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Dried Fruit</span>
+                                            <h5><a href="#">Raisin’n’nuts</a></h5>
+                                            <div class="product__item__price">$30.00 <del>$36.00</del></div>
+                                        </div>
+                                    </div>
+                                
+                                    <div class="product__discount__item ">
+                                        <div class="product__discount__item__pic">
+                                            <img src="./img/product/discount/pd-6.jpg" alt="" class="mw-100">
+                                            <div class="product__discount__percent">-20%</div>
+                                            <ul class="product__item__pic__hover">
+                                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                            </ul>
+                                        </div>
+                                        <div class="product__discount__item__text">
+                                            <span>Dried Fruit</span>
+                                            <h5><a href="#">Raisin’n’nuts</a></h5>
+                                            <div class="product__item__price">$30.00 <del>$36.00</del></div>
+                                        </div>
+                                    </div>
+                                </div>   
+                            </div>
+                      </div>
+                  </div>
+
+                  <div class="filter__item py-5">
+                    <div class="row">
+                        <div class="col-lg-4 col-md-5">
+                            <div class="filter__sort">
+                                <span>Sort By</span>
+                                <select>
+                                    <option value="0">Default</option>
+                                    <option value="0">Default</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-4">
+                            <div class="filter__found">
+                                <h6><span>16</span> Products found</h6>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-3">
+                            <div class="filter__option">
+                                <span class="icon_grid-2x2"><i class="fas fa-th-large"></i></span>
+                                <span class="icon_ul"><i class="fas fa-list"></i></span>
+                            </div>
+                        </div>
+                    </div>
+                  </div>
+                  <div class="row">
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-1.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-2.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-3.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-4.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-5.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-6.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-7.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-8.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-9.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-10.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-11.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6 col-sm-6">
+                      <div class="product__discount__item ">
+                        <div class="product__discount__item__pic">
+                            <img src="./img/./product/product-12.jpg" alt="" class="mw-100">
+                            <ul class="product__item__pic__hover">
+                                <li><a href="#"><i class="fa fa-heart"></i></a></li>
+                                <li><a href="#"><i class="fa fa-retweet"></i></a></li>
+                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="product__discount__item__text">
+                            <h5>Crab Pool Security</h5>
+                            <div class="product__item__price">$30.00</div>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+              </div>
+
+          </div>
+      </div>
+  </section>
+  <!-- product-section-end -->
+
+<!-- footer-section-start -->
+<section class="footer-section pt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-3 col-md-6 col-sm-6">
+        <div class="footer-about">
+          <div class="footer-about-logo">
+            <a href="./index.html"><img src="img/logo.png" alt=""></a>
+            <ul>
+              <li>Address: 60-49 Road 11378 New York</li>
+              <li>Phone: +65 11.188.888</li>
+              <li>Email: hello@colorlib.com</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+        <div class="footer__widget">
+            <h6>Useful Links</h6>
+            <ul>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">About Our Shop</a></li>
+                <li><a href="#">Secure Shopping</a></li>
+                <li><a href="#">Delivery infomation</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+                <li><a href="#">Our Sitemap</a></li>
+            </ul>
+            <ul>
+                <li><a href="#">Who We Are</a></li>
+                <li><a href="#">Our Services</a></li>
+                <li><a href="#">Projects</a></li>
+                <li><a href="#">Contact</a></li>
+                <li><a href="#">Innovation</a></li>
+                <li><a href="#">Testimonials</a></li>
+            </ul>
+        </div>
+      </div>
+      <div class="col-lg-4 col-md-12">
+        <div class="footer__widget">
+            <h6>Join Our Newsletter Now</h6>
+            <p>Get E-mail updates about our latest shop and special offers.</p>
+            <div class="hero__search__form">
+              <div class="input-group mb-3">
+               
+                <input type="text" class="form-control" placeholder="Enter your email" aria-label="What do you need" aria-describedby="button-addon2">
+                <button class="btn btn-primary " type="button" id="button-addon2">SUBSCRIBE</button>
+              </div>
+            </div>
+            <div class="footer__widget__social">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+          <div class="footer__copyright">
+              <div class="footer__copyright__text"><p>
+Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart" aria-hidden="true"></i> by <a href="http://nuralam.wpwebmonster.com" >Rakib Ahmed</a></p></div>
+              <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+          </div>
+      </div>
+  </div>
+  </div>
+</section>
+<!-- footer-section-end -->
+
+
+
+  <div class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../e-commerce/./js/jquery-ui.min.js"></script>
+    <script src="../e-commerce/./js/jquery.nice-select.min.js"></script>
+    <script src="../e-commerce/./js/jquery.slicknav.js"></script>
+    <script src="../e-commerce/./js/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../e-commerce/./js/script.js"></script>
+    <script>
+        let sliderOne = document.getElementById("slider-1");
+        let sliderTwo = document.getElementById("slider-2");
+        let displayValOne = document.getElementById("range1");
+        let displayValTwo = document.getElementById("range2");
+        let minGap = 0;
+        let sliderTrack = document.querySelector(".slider-track");
+        let sliderMaxValue = document.getElementById("slider-1").max;
+
+        function slideOne(){
+            if(parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap){
+                sliderOne.value = parseInt(sliderTwo.value) - minGap;
+            }
+            displayValOne.textContent = sliderOne.value;
+            fillColor();
+        }
+        function slideTwo(){
+            if(parseInt(sliderTwo.value) - parseInt(sliderOne.value) <= minGap){
+                sliderTwo.value = parseInt(sliderOne.value) + minGap;
+            }
+            displayValTwo.textContent = sliderTwo.value;
+            fillColor();
+        }
+        function fillColor(){
+            percent1 = (sliderOne.value / sliderMaxValue) * 500;
+            percent2 = (sliderTwo.value / sliderMaxValue) * 500;
+            sliderTrack.style.background = `linear-gradient(to right, #dadae5 ${percent1}% , #3264fe ${percent1}% , #3264fe ${percent2}%, #dadae5 ${percent2}%)`;
+        }
+    </script>
+  </body>
+</html>
+
+
+

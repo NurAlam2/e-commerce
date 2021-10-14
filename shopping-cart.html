@@ -1,0 +1,495 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Organi</title>
+
+    <!-- style CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"/>
+    <link rel="stylesheet" href="../e-commerce/./css/nice-select.css">
+    <link rel="stylesheet" href="../e-commerce/./css/jquery-ui.min.css">
+    <link rel="stylesheet" href="../e-commerce/./css/slicknav.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.theme.default.min.css"/>
+    <link rel="stylesheet" href="../e-commerce/css/style.css">
+  </head>
+  <body>
+    <!-- header-top-section-start -->
+    <header class="header">
+      <div class="header-top-section">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-6 col-md-6">
+              <div class="header-top-left">
+                <ul>
+                  <li><i class="fas fa-envelope"></i>hello@colorlib.com</li>
+                  <li> Free Shipping for all Order of $99</li>
+                </ul>
+              </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+              <div class="header__top__right">
+                <div class="header__top__right__social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="header__top__right__language">
+                    <img src="img/language.png" alt="">
+                    <span>English<i class="fas fa-angle-down"></i></span>
+                    <ul>
+                        <li><a href="#">Spanis</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                </div>
+                <div class="header__top__right__auth">
+                    <a href="#"><i class="fa fa-user"></i> Login</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-3">
+                <div class="header__logo">
+                    <a href="./index.html"><img src="./img/logo.png" alt=""></a>
+                </div>
+            </div>
+            <div class="col-lg-6 col-md-6">
+                <nav class="header__menu">
+                    <ul>
+                        <li class="active"><a href="./index.html">Home</a></li>
+                        <li><a href="./shop-grid.html">Shop</a></li>
+                        <li><a href="#">Pages</a>
+                            <ul class="header__menu__dropdown">
+                                <li><a href="./product-details.html">Shop Details</a></li>
+                                <li><a href="./shopping-cart.html">Shoping Cart</a></li>
+                                <li><a href="./checkout.html">Check Out</a></li>
+                                <li><a href="">Blog Details</a></li>
+                            </ul>
+                        </li>
+                        <li><a href="">Blog</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-lg-3 col-md-3">
+                <div class="header__cart">
+                    <ul>
+                        <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                        <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                    </ul>
+                    <div class="header__cart__price">item: <span>$150.00</span></div>
+                </div>
+            </div>
+        </div>
+        <div class="toggle-icon">
+          <a class="btn" data-bs-toggle="offcanvas" href="#offcanvasExample" role="button" aria-controls="offcanvasExample">
+            <i class="fas fa-bars"></i>
+          </a>
+        </div>
+       
+      </div>
+    </header>
+    <!-- header-top-section-end -->
+
+    <!-- mobile menu start -->
+    <section class="mobile-menu">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            
+            <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+              <div class="mobile-menu-header">
+                <a href="#"><img src="../e-commerce/img/logo.png" alt=""></a>
+              </div>
+              <div class="offcanvas-body">
+                <div class="header__cart mobile-cart">
+                  <ul>
+                      <li><a href="#"><i class="fa fa-heart"></i> <span>1</span></a></li>
+                      <li><a href="#"><i class="fa fa-shopping-bag"></i> <span>3</span></a></li>
+                  </ul>
+                  <div class="header__cart__price">item: <span>$150.00</span></div>
+                </div>
+                <div class="mobile-lang-auth">
+                  <div class="mobile_top_language">
+                    <img src="img/language.png" alt="">
+                    <span>English<i class="fas fa-angle-down"></i></span>
+                    <ul>
+                        <li><a href="#">Spanis</a></li>
+                        <li><a href="#">English</a></li>
+                    </ul>
+                  </div>
+                  <div class=" mobile_header-auth">
+                      <a href="#"><i class="fa fa-user"></i> Login</a>
+                  </div>
+                </div>
+
+                <nav class="navbar-light">
+                  <ul class="navbar-nav">
+                    <li>
+                      <a href="#" class="nav-link">
+  
+                        <span>Home</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span>Shop</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a class="nav-link sidebar-link" data-bs-toggle="collapse" href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+                        <span>Pages</span>
+                        <span class="right-icon ms-auto">
+                          <i class="fas fa-angle-down"></i>
+                        </span>
+                      </a>
+                      <div class="collapse" id="collapseExample">
+                        <div>
+                          <ul class="navbar-nav ">
+                            <li>
+                              <a href="#" class="nav-link px-3">
+                                <span>Shop Details</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="nav-link px-3">
+                                <span>Shopping Cart</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="nav-link px-3">
+                                <span>Check Out</span>
+                              </a>
+                            </li>
+                            <li>
+                              <a href="#" class="nav-link px-3">
+                                <span>Blog Details</span>
+                              </a>
+                            </li>
+                          </ul>
+                        </div>
+                      </div>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span>Blog</span>
+                      </a>
+                    </li>
+                    <li>
+                      <a href="#" class="nav-link">
+                        <span>Contact</span>
+                      </a>
+                    </li>
+                    
+                  </ul>
+                </nav>
+                <div class="header__top__right__social pt-5 mobile-social">
+                  <a href="#"><i class="fab fa-facebook-f"></i></a>
+                  <a href="#"><i class="fab fa-twitter"></i></a>
+                  <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                  <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+                <div class="mobile-menu-contact">
+                  <ul>
+                    <li><i class="fas fa-envelope"></i> hello@colorlib.com</li>
+                    <li> Free Shipping for all Order of $99</li>
+                  </ul>
+                </div>
+
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- mobile menu end -->
+
+    
+
+    <!-- Hero Section Begin -->
+    <section class="hero">
+      <div class="container">
+          <div class="row">
+              <div class="col-lg-3">
+                  <div class="hero__categories">
+                    <div class="accordion" id="accordionExample">
+                      <div class="accordion-item">
+                        <h2 class="accordion-header" id="headingOne">
+                          <button class="accordion-button " type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            All Departments
+                          </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse" aria-labelledby="headingOne" data-bs-parent="#accordionExample" style="position: absolute; width: 260px; background: #fff;">
+                          <div class="accordion-body">
+                            <ul>
+                              <li><a href="#">Fresh Meat</a></li>
+                              <li><a href="#">Vegetables</a></li>
+                              <li><a href="#">Fruit & Nut Gifts</a></li>
+                              <li><a href="#">Fresh Berries</a></li>
+                              <li><a href="#">Ocean Foods</a></li>
+                              <li><a href="#">Butter & Eggs</a></li>
+                              <li><a href="#">Fastfood</a></li>
+                              <li><a href="#">Fresh Onion</a></li>
+                              <li><a href="#">Papayaya & Crisps</a></li>
+                              <li><a href="#">Oatmeal</a></li>
+                              <li><a href="#">Fresh Bananas</a></li>
+                          </ul>
+                          </div>
+                        </div>
+                      </div>
+                     
+                    </div>
+                  </div>
+              </div>
+              <div class="col-lg-9">
+                  <div class="hero__search">
+                      <div class="hero__search__form">
+                        <div class="input-group mb-3">
+                         
+                          <input type="text" class="form-control" placeholder="What do you need?" aria-label="What do you need" aria-describedby="button-addon2">
+                          <button class="btn btn-primary btn-lg" type="button" id="button-addon2">Search</button>
+                        </div>
+                      </div>
+                  <div class="hero__search__phone ">
+                          <div class="hero__search__phone__icon">
+                              <i class="fa fa-phone"></i>
+                          </div>
+                          <div class="hero__search__phone__text">
+                              <h5>+65 11.188.888</h5>
+                              <span>support 24/7 time</span>
+                          </div>
+                      </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Hero Section End -->
+
+    <!-- page-title-section-start -->
+  <section class="page-title-section mt-4">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                <div class="title-text">
+                    <h2>Shopping Cart</h2>
+                    <div class="title-option">
+                        <a href="./index.html">Home-</a>
+                        <span>Shopping Cart</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+  <!-- page-title-section-end -->
+
+    <!-- shopping cart section start -->
+    <section class="shopping-cart-section py-5">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-12">
+                    <div class="shoping__cart__table">
+                        <table class="w-100 table-responsive">
+                            <thead>
+                                <tr>
+                                    <th class="shoping__product">Products</th>
+                                    <th>Price</th>
+                                    <th>Quantity</th>
+                                    <th>Total</th>
+                                    <th></th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                <tr>
+                                    <td class="shoping__cart__item">
+                                        <img src="img/cart/cart-1.jpg" alt="">
+                                        <h5>Vegetable’s Package</h5>
+                                    </td>
+                                    <td class="shoping__cart__price">$55.00</td>
+                                    <td class="shoping__cart__quantity">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="shoping__cart__total">$110.00</td>
+                                    <td class="shoping__cart__item__close">
+                                        <span class="icon_close"><i class="fas fa-times"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="shoping__cart__item">
+                                        <img src="img/cart/cart-2.jpg" alt="">
+                                        <h5>Fresh Garden Vegetable</h5>
+                                    </td>
+                                    <td class="shoping__cart__price">$39.00</td>
+                                    <td class="shoping__cart__quantity">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="shoping__cart__total">$39.99</td>
+                                    <td class="shoping__cart__item__close">
+                                        <span class="icon_close"><i class="fas fa-times"></i></span>
+                                    </td>
+                                </tr>
+                                <tr>
+                                    <td class="shoping__cart__item">
+                                        <img src="img/cart/cart-3.jpg" alt="">
+                                        <h5>Organic Bananas</h5>
+                                    </td>
+                                    <td class="shoping__cart__price">$69.00</td>
+                                    <td class="shoping__cart__quantity">
+                                        <div class="quantity">
+                                            <div class="pro-qty">
+                                                <input type="text" value="1">
+                                            </div>
+                                        </div>
+                                    </td>
+                                    <td class="shoping__cart__total">$69.99</td>
+                                    <td class="shoping__cart__item__close">
+                                        <span class="icon_close"><i class="fas fa-times"></i></span>
+                                    </td>
+                                </tr>
+                            </tbody>
+                        </table>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12 pt-4">
+                    <div class="shoping__cart__btns d-flex justify-content-between">
+                        <a href="#" class="primary-btn cart-btn">CONTINUE SHOPPING</a>
+                        <a href="#" class="primary-btn cart-btn cart-btn-right"><span class="icon_loading"></span>
+                            Upadate Cart</a>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-5">
+                    <div class="shoping__continue">
+                        <div class="shoping__discount">
+                            <h5>Discount Codes</h5>
+                            <form action="#">
+                                <input type="text" placeholder="Enter your coupon code">
+                                <button type="submit" class="site-btn">APPLY COUPON</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 py-5">
+                    <div class="shoping__checkout">
+                        <h5>Cart Total</h5>
+                        <ul>
+                            <li>Subtotal <span>$454.98</span></li>
+                            <li>Total <span>$454.98</span></li>
+                        </ul>
+                        <a href="#" class="primary-btn ">PROCEED TO CHECKOUT</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- shopping cart section end -->
+ 
+
+    <!-- footer-section-start -->
+    <section class="footer-section pt-5">
+    <div class="container">
+        <div class="row">
+        <div class="col-lg-3 col-md-6 col-sm-6">
+            <div class="footer-about">
+            <div class="footer-about-logo">
+                <a href="./index.html"><img src="img/logo.png" alt=""></a>
+                <ul>
+                <li>Address: 60-49 Road 11378 New York</li>
+                <li>Phone: +65 11.188.888</li>
+                <li>Email: hello@colorlib.com</li>
+                </ul>
+            </div>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-6 col-sm-6 offset-lg-1">
+            <div class="footer__widget">
+                <h6>Useful Links</h6>
+                <ul>
+                    <li><a href="#">About Us</a></li>
+                    <li><a href="#">About Our Shop</a></li>
+                    <li><a href="#">Secure Shopping</a></li>
+                    <li><a href="#">Delivery infomation</a></li>
+                    <li><a href="#">Privacy Policy</a></li>
+                    <li><a href="#">Our Sitemap</a></li>
+                </ul>
+                <ul>
+                    <li><a href="#">Who We Are</a></li>
+                    <li><a href="#">Our Services</a></li>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Contact</a></li>
+                    <li><a href="#">Innovation</a></li>
+                    <li><a href="#">Testimonials</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-lg-4 col-md-12">
+            <div class="footer__widget">
+                <h6>Join Our Newsletter Now</h6>
+                <p>Get E-mail updates about our latest shop and special offers.</p>
+                <div class="hero__search__form">
+                <div class="input-group mb-3">
+                
+                    <input type="text" class="form-control" placeholder="Enter your email" aria-label="What do you need" aria-describedby="button-addon2">
+                    <button class="btn btn-primary " type="button" id="button-addon2">SUBSCRIBE</button>
+                </div>
+                </div>
+                <div class="footer__widget__social">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="row">
+        <div class="col-lg-12">
+            <div class="footer__copyright">
+                <div class="footer__copyright__text"><p>
+    Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved <i class="fa fa-heart" aria-hidden="true"></i> by <a href="http://nuralam.wpwebmonster.com" >Rakib Ahmed</a></p></div>
+                <div class="footer__copyright__payment"><img src="img/payment-item.png" alt=""></div>
+            </div>
+        </div>
+    </div>
+    </div>
+    </section>
+    <!-- footer-section-end -->
+
+
+
+  <div class="scroll-to-top">
+    <i class="fas fa-arrow-up"></i>
+  </div>
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="../e-commerce/./js/jquery-ui.min.js"></script>
+    <script src="../e-commerce/./js/jquery.nice-select.min.js"></script>
+    <script src="../e-commerce/./js/jquery.slicknav.js"></script>
+    <script src="../e-commerce/./js/mixitup.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js"></script>
+    <script src="../e-commerce/./js/script.js"></script>
+  </body>
+</html>
+
+
+
